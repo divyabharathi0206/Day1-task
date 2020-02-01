@@ -6,15 +6,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Launch {
-
-	driver.get("https://www.facebook.com/");
-		 
+	driver.get("https://www.facebook.com/");	 
 		 WebElement user = driver.findElement(By.id("email"));
 	        user.sendKeys("raj@gmail.com");
 	     WebElement pswd = driver.findElement(By.id("pass"));
 	        pswd.sendKeys("234567");
          WebElement btn = driver.findElement(By.id("loginbutton"));
            btn.click();
-	}
-
-}
+           }}
