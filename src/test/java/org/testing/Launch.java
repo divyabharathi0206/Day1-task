@@ -9,7 +9,7 @@ public class Launch {
 		 System.setProperty("Webdriver.chrome.driver","C:\\Users\\Divi keerthi\\eclipse workspace\\Project\\lib\\chromedriver.exe");
 		 WebDriver driver=new ChromeDriver();
 		 driver.get("https://www.facebook.com/");
-		 
+		 //fghhjd
 		 WebElement user = driver.findElement(By.id("email"));
 	        user.sendKeys("raj@gmail.com");
 	     WebElement pswd = driver.findElement(By.id("pass"));
