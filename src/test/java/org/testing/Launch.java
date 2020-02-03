@@ -8,8 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Launch {
 	public static void main(String[] args) {
 		 System.setProperty("Webdriver.chrome.driver","C:\\Users\\Divi keerthi\\eclipse workspace\\Project\\lib\\chromedriver.exe");
-		     int i=a;
-		    System.out.println(a);
+		    
 		 
 		 WebElement user = driver.findElement(By.id("email"));
 	        user.sendKeys("raj@gmail.com");
@@ -17,6 +16,8 @@ public class Launch {
 	        pswd.sendKeys("234567");
          WebElement btn = driver.findElement(By.id("loginbutton"));
            btn.click();
+           System.out.println(user);
+           System.out.println(pswd);
 	}
 
 }
